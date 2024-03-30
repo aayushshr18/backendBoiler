@@ -4,8 +4,8 @@ const app = express();
 const port = process.env.PORT || 3001;
 const cors = require("cors");
 const {auth}= require("./middleware/index.js");
-const routerV1=require("./routers/Authorization.js");
-const authV1=require("./routers/AuthRouterV1.js");
+const routerV1=require("./routers/RouterV1.js");
+const authV1=require("./routers/AuthRouter.js");
 
 
 
